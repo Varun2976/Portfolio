@@ -1,0 +1,45 @@
+body,html{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: top;
+    background-color: hsla(0, 5%, 26%, 0.261);
+    margin-top: 0%;
+    
+}
+nav a{
+    display: block;
+    color: aqua;
+    text-decoration: none;
+    text-underline-offset: 5px;
+    text-align: right;
+    position: relative;
+    top: -1px;
+    padding: 20px 40px;
+    
+    margin: auto;
+    font-family: 'Poppins';
+    font-size: 1.3em;
+    cursor: pointer;
+    transition: 0.25s;
+  
+}
+nav a.Experiences{
+    background-color: aqua;
+    color: black;
+    border-radius: 20px;
+
+    
+}
+
+nav a:hover{
+    background-color: aqua;
+    color: black;
+    transform: scale(5px,5px);
+    border-radius: 20px;
+    font-size: 2em;
+}
